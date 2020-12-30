@@ -29,12 +29,9 @@ public class BookUpdate {
 			       pub_date = '19/07/09'
 			 where book_id = 4;
 		     */
-			
+	
 			String query =  "";
-			
-			
-			
-			
+
 			query += " update book ";
 			query += " set title = ?, ";
 			query += " pubs = ?, ";
